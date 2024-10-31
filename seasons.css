@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+body#spring {
+    background-color: green;
+}
+
+body#summer {
+    background-color: yellow;
+}
+
+body#fall {
+    background-color: orange;
+}
+
+body#winter {
+    background-color: lightblue;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+     margin: 2%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+#spring header, #spring footer {
+    background-color: deeppink;
+}
+
+#summer header, #summer footer {
+    background-color: red;
+}
+
+#fall header, #fall footer {
+    background-color: darkred;
+}
+
+#winter header, #winter footer {
+    background-color: mediumseagreen;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+
+#spring nav {
+    background-color: mediumseagreen;
+}
+
+#summer nav {
+    background-color: lightblue;
+}
+
+#fall nav {
+    background-color: yellow;
+}
+
+#winter nav {
+    background-color: blue;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+#fall nav a {
+    background-color: darkred;
+}
+
+nav a:hover {
+    background-color: #900;
+}
+
+#fall nav a:hover {
+    color: yellow;
+}
+
+#mainpage section img{
+    text-align: center;
+    overflow: auto;
+}
+
+#mainpage section {
+    text-align: center;
+    overflow: auto;
+}
+
+#spring section img{
+    text-align: center;
+    overflow: auto;
+}
+
+#spring section {
+    text-align: center;
+    overflow: auto;
+}
+
+#summer section img{
+    text-align: center;
+    overflow: auto;
+}
+
+#summer section {
+    text-align: center;
+    overflow: auto;
+}
+
+#fall section img{
+    text-align: center;
+    overflow: auto;
+}
+
+#fall section {
+    text-align: center;
+    overflow: auto;
+}
+
+#winter section img{
+    text-align: center;
+    overflow: auto;
+}
+
+#winter section {
+    text-align: center;
+    overflow: auto;
+}
