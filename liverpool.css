@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+nav {
+    background-color: gold;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+nav a:hover {
+    background-color: #900
+}
+
+aside {
+    background-color: lightgray;
+    width: 25%;
+    float: left;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+article {
+    background-color: whitesmoke;
+    width: 69%;
+    float: right;
+    padding: 1% 3%;
+}
+
+section {
+    overflow: auto;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.goal {
+    float: right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+.arne {
+    float: right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+.henderson {
+    float: right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+.klopp {
+    float: right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+.contracts {
+    float: right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+h2 {
+    font-family: Yuji Mai;
+}
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    nav {
+        font-size: smaller;
+    }
+    body{
+        background-color: grey;
+    }
+}
+
+@media screen and (max-width:800px) {
+    nav, aside {
+    padding: 0;
+}
+    
+    #wrap {
+        width: 100%;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    article, aside {
+        float: none;
+        width: 96%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav a, aside a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    aside a {
+    text-decoration: none;
+    padding: 15px 0;
+    font-size: larger;
+}
+    
+    nav ul, nav li, aside ul, aside li {
+        margin: 0;
+        padding: 0;
+    }
+    
+
